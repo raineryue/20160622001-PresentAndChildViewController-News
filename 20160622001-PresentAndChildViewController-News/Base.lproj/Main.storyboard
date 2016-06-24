@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Rk9-Sa-h12">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="U98-oC-pUb">
+            <objects>
+                <navigationController id="Rk9-Sa-h12" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="au5-bV-EAv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qiV-y9-TLt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CjO-bb-asi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="418"/>
+        </scene>
+        <!--网易新闻-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RYNewsHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +32,38 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjK-xp-0gK" userLabel="内容">
+                                <rect key="frame" x="0.0" y="100" width="600" height="500"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8l-qr-Dee" userLabel="标题">
+                                <rect key="frame" x="0.0" y="64" width="600" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="TUB-CY-zdg"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="s8l-qr-Dee" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3bf-AA-EB5"/>
+                            <constraint firstAttribute="trailing" secondItem="s8l-qr-Dee" secondAttribute="trailing" id="90w-hV-Wgb"/>
+                            <constraint firstItem="s8l-qr-Dee" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="MGw-wr-agy"/>
+                            <constraint firstItem="gjK-xp-0gK" firstAttribute="top" secondItem="s8l-qr-Dee" secondAttribute="bottom" id="SFK-EH-pZq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gjK-xp-0gK" secondAttribute="bottom" id="TDn-LT-EOj"/>
+                            <constraint firstItem="gjK-xp-0gK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cf7-BG-Mqj"/>
+                            <constraint firstAttribute="trailing" secondItem="gjK-xp-0gK" secondAttribute="trailing" id="hBj-x1-Rvk"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="网易新闻" id="fKc-jC-46o"/>
+                    <connections>
+                        <outlet property="contentScrollView" destination="gjK-xp-0gK" id="h2i-hV-b4v"/>
+                        <outlet property="titleScrollView" destination="s8l-qr-Dee" id="1ie-ud-4ax"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="561" y="418"/>
         </scene>
     </scenes>
 </document>

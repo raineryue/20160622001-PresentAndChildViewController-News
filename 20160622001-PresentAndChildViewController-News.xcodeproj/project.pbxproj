@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		D5D2F3D31D1A333200EB25D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F3D21D1A333200EB25D7 /* main.m */; };
 		D5D2F3D61D1A333200EB25D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F3D51D1A333200EB25D7 /* AppDelegate.m */; };
-		D5D2F3D91D1A333200EB25D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F3D81D1A333200EB25D7 /* ViewController.m */; };
 		D5D2F3DC1D1A333200EB25D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D2F3DA1D1A333200EB25D7 /* Main.storyboard */; };
 		D5D2F3DE1D1A333200EB25D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D2F3DD1D1A333200EB25D7 /* Assets.xcassets */; };
 		D5D2F3E11D1A333200EB25D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D2F3DF1D1A333200EB25D7 /* LaunchScreen.storyboard */; };
 		D5D2F3EC1D1A333200EB25D7 /* _0160622001_PresentAndChildViewController_NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F3EB1D1A333200EB25D7 /* _0160622001_PresentAndChildViewController_NewsTests.m */; };
 		D5D2F3F71D1A333200EB25D7 /* _0160622001_PresentAndChildViewController_NewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F3F61D1A333200EB25D7 /* _0160622001_PresentAndChildViewController_NewsUITests.m */; };
+		D5D2F4061D1A5F0400EB25D7 /* RYNewsHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F4051D1A5F0400EB25D7 /* RYNewsHomeViewController.m */; };
+		D5D2F4091D1A75F400EB25D7 /* RYYaoWenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F4081D1A75F400EB25D7 /* RYYaoWenViewController.m */; };
+		D5D2F40C1D1A760A00EB25D7 /* RYShiPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F40B1D1A760A00EB25D7 /* RYShiPinViewController.m */; };
+		D5D2F40F1D1A761D00EB25D7 /* RYShangHaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F40E1D1A761D00EB25D7 /* RYShangHaiViewController.m */; };
+		D5D2F4121D1A763000EB25D7 /* RYCaiJingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F4111D1A763000EB25D7 /* RYCaiJingViewController.m */; };
+		D5D2F4151D1A764800EB25D7 /* RYYuLeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F4141D1A764800EB25D7 /* RYYuLeViewController.m */; };
+		D5D2F4181D1A768100EB25D7 /* RYTiYuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F4171D1A768100EB25D7 /* RYTiYuViewController.m */; };
+		D5D2F41B1D1A769500EB25D7 /* RYGuoJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D2F41A1D1A769500EB25D7 /* RYGuoJiViewController.m */; };
+		D5E5AAC41D1D1741007793E5 /* RYTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E5AAC31D1D1741007793E5 /* RYTitleLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		D5D2F3D21D1A333200EB25D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D5D2F3D41D1A333200EB25D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D5D2F3D51D1A333200EB25D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D5D2F3D71D1A333200EB25D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D5D2F3D81D1A333200EB25D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D5D2F3DB1D1A333200EB25D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5D2F3DD1D1A333200EB25D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5D2F3E01D1A333200EB25D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,24 @@
 		D5D2F3F21D1A333200EB25D7 /* 20160622001-PresentAndChildViewController-NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160622001-PresentAndChildViewController-NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D2F3F61D1A333200EB25D7 /* _0160622001_PresentAndChildViewController_NewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160622001_PresentAndChildViewController_NewsUITests.m; sourceTree = "<group>"; };
 		D5D2F3F81D1A333200EB25D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5D2F4041D1A5F0400EB25D7 /* RYNewsHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewsHomeViewController.h; sourceTree = "<group>"; };
+		D5D2F4051D1A5F0400EB25D7 /* RYNewsHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewsHomeViewController.m; sourceTree = "<group>"; };
+		D5D2F4071D1A75F400EB25D7 /* RYYaoWenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYYaoWenViewController.h; sourceTree = "<group>"; };
+		D5D2F4081D1A75F400EB25D7 /* RYYaoWenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYYaoWenViewController.m; sourceTree = "<group>"; };
+		D5D2F40A1D1A760A00EB25D7 /* RYShiPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYShiPinViewController.h; sourceTree = "<group>"; };
+		D5D2F40B1D1A760A00EB25D7 /* RYShiPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYShiPinViewController.m; sourceTree = "<group>"; };
+		D5D2F40D1D1A761D00EB25D7 /* RYShangHaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYShangHaiViewController.h; sourceTree = "<group>"; };
+		D5D2F40E1D1A761D00EB25D7 /* RYShangHaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYShangHaiViewController.m; sourceTree = "<group>"; };
+		D5D2F4101D1A763000EB25D7 /* RYCaiJingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYCaiJingViewController.h; sourceTree = "<group>"; };
+		D5D2F4111D1A763000EB25D7 /* RYCaiJingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYCaiJingViewController.m; sourceTree = "<group>"; };
+		D5D2F4131D1A764800EB25D7 /* RYYuLeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYYuLeViewController.h; sourceTree = "<group>"; };
+		D5D2F4141D1A764800EB25D7 /* RYYuLeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYYuLeViewController.m; sourceTree = "<group>"; };
+		D5D2F4161D1A768100EB25D7 /* RYTiYuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTiYuViewController.h; sourceTree = "<group>"; };
+		D5D2F4171D1A768100EB25D7 /* RYTiYuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTiYuViewController.m; sourceTree = "<group>"; };
+		D5D2F4191D1A769500EB25D7 /* RYGuoJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYGuoJiViewController.h; sourceTree = "<group>"; };
+		D5D2F41A1D1A769500EB25D7 /* RYGuoJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYGuoJiViewController.m; sourceTree = "<group>"; };
+		D5E5AAC21D1D1741007793E5 /* RYTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTitleLabel.h; sourceTree = "<group>"; };
+		D5E5AAC31D1D1741007793E5 /* RYTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTitleLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +127,24 @@
 			children = (
 				D5D2F3D41D1A333200EB25D7 /* AppDelegate.h */,
 				D5D2F3D51D1A333200EB25D7 /* AppDelegate.m */,
-				D5D2F3D71D1A333200EB25D7 /* ViewController.h */,
-				D5D2F3D81D1A333200EB25D7 /* ViewController.m */,
+				D5D2F4041D1A5F0400EB25D7 /* RYNewsHomeViewController.h */,
+				D5D2F4051D1A5F0400EB25D7 /* RYNewsHomeViewController.m */,
+				D5E5AAC21D1D1741007793E5 /* RYTitleLabel.h */,
+				D5E5AAC31D1D1741007793E5 /* RYTitleLabel.m */,
+				D5D2F4071D1A75F400EB25D7 /* RYYaoWenViewController.h */,
+				D5D2F4081D1A75F400EB25D7 /* RYYaoWenViewController.m */,
+				D5D2F40A1D1A760A00EB25D7 /* RYShiPinViewController.h */,
+				D5D2F40B1D1A760A00EB25D7 /* RYShiPinViewController.m */,
+				D5D2F40D1D1A761D00EB25D7 /* RYShangHaiViewController.h */,
+				D5D2F40E1D1A761D00EB25D7 /* RYShangHaiViewController.m */,
+				D5D2F4101D1A763000EB25D7 /* RYCaiJingViewController.h */,
+				D5D2F4111D1A763000EB25D7 /* RYCaiJingViewController.m */,
+				D5D2F4131D1A764800EB25D7 /* RYYuLeViewController.h */,
+				D5D2F4141D1A764800EB25D7 /* RYYuLeViewController.m */,
+				D5D2F4161D1A768100EB25D7 /* RYTiYuViewController.h */,
+				D5D2F4171D1A768100EB25D7 /* RYTiYuViewController.m */,
+				D5D2F4191D1A769500EB25D7 /* RYGuoJiViewController.h */,
+				D5D2F41A1D1A769500EB25D7 /* RYGuoJiViewController.m */,
 				D5D2F3DA1D1A333200EB25D7 /* Main.storyboard */,
 				D5D2F3DD1D1A333200EB25D7 /* Assets.xcassets */,
 				D5D2F3DF1D1A333200EB25D7 /* LaunchScreen.storyboard */,
@@ -202,8 +242,9 @@
 		D5D2F3C61D1A333200EB25D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RY;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = Sand;
+				ORGANIZATIONNAME = Rainer;
 				TargetAttributes = {
 					D5D2F3CD1D1A333200EB25D7 = {
 						CreatedOnToolsVersion = 7.3;
@@ -270,8 +311,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5D2F3D91D1A333200EB25D7 /* ViewController.m in Sources */,
+				D5D2F4091D1A75F400EB25D7 /* RYYaoWenViewController.m in Sources */,
+				D5D2F40C1D1A760A00EB25D7 /* RYShiPinViewController.m in Sources */,
+				D5E5AAC41D1D1741007793E5 /* RYTitleLabel.m in Sources */,
+				D5D2F4151D1A764800EB25D7 /* RYYuLeViewController.m in Sources */,
 				D5D2F3D61D1A333200EB25D7 /* AppDelegate.m in Sources */,
+				D5D2F41B1D1A769500EB25D7 /* RYGuoJiViewController.m in Sources */,
+				D5D2F4181D1A768100EB25D7 /* RYTiYuViewController.m in Sources */,
+				D5D2F4061D1A5F0400EB25D7 /* RYNewsHomeViewController.m in Sources */,
+				D5D2F4121D1A763000EB25D7 /* RYCaiJingViewController.m in Sources */,
+				D5D2F40F1D1A761D00EB25D7 /* RYShangHaiViewController.m in Sources */,
 				D5D2F3D31D1A333200EB25D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +547,7 @@
 				D5D2F3FD1D1A333200EB25D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5D2F3FE1D1A333200EB25D7 /* Build configuration list for PBXNativeTarget "20160622001-PresentAndChildViewController-NewsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +556,7 @@
 				D5D2F4001D1A333200EB25D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D5D2F4011D1A333200EB25D7 /* Build configuration list for PBXNativeTarget "20160622001-PresentAndChildViewController-NewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +565,7 @@
 				D5D2F4031D1A333200EB25D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
