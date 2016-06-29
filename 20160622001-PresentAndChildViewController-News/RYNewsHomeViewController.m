@@ -159,6 +159,8 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     // 1.获取偏移比例
     CGFloat contentOffsetScale = scrollView.contentOffset.x / scrollView.bounds.size.width;
+    // 1.1.当偏移比例为小于0代表已经移动到第一个，当偏移比例为小于标题的标签总数减一时代表已经移动到最后一个，那么不需要改变任何字体
+    if (contentOffsetScale < 0 || contentOffsetScale > self.titleScrollView.subviews.count - 1) return;
     
     // 2.获取需要操作的左边标题标签
     // 2.1.获取左边的标题标签的索引
@@ -203,6 +205,11 @@
     
     // 3.获取当前页的标题标签
     RYTitleLabel *titleLabel = self.titleScrollView.subviews[index];
+    
+    // 当停止滚动时需要恢复其他非当前标题标签的样式
+    for (RYTitleLabel *otherTitleLabel in self.titleScrollView.subviews) {
+        if (titleLabel != otherTitleLabel) otherTitleLabel.scale = 0.0;
+    }
     
     // 3.1.获取当前页的标题标签的偏移量
     CGPoint titleLabelContentOffset = self.titleScrollView.contentOffset;
